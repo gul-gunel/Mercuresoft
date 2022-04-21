@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<!-- fontawesome CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+
+	<link rel="shortcut icon" href="img/MS.PNG" type="image/x-icon">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg mb-5 fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img class="nav__logo" src="img/logo.png" alt="">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars fa-2x nav__link"></i>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<div class="me-auto"></div>
+				<!-- sağa yanaştırma -->
+
+				<ul class="navbar-nav">
+					<li class="nav-item mx-5">
+						<a class="nav-link" href="#">ANASAYFA</a>
+					</li>
+					<li class="nav-item mx-5">
+						<a class="nav-link" href="#">HAKKIMIZDA</a>
+					</li>
+					<li class="nav-item mx-5">
+						<a class="nav-link" href="#">HİZMETLERİMİZ</a>
+					</li>
+					<li class="nav-item mx-5">
+						<a class="nav-link" href="#">BLOG</a>
+					</li>
+					<li class="nav-item mx-5">
+						<a class="nav-link" href="#">İLETİŞİM</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header class="header">
+		<div class="white"></div>
+
+		<div id="carouselExampleIndicators" class="header__top carousel slide container" data-bs-ride="carousel">
+			<div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+					aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+					aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+					aria-label="Slide 3"></button>
+			</div>
+			<div class="carousel-inner pb-5">
+				<div class="carousel-item active">
+					<div class=" row">
+						<div class="header__top__left col-md-6">
+							<h1 class="header__top__left__title">ETKİLEYİCİ WEB VE YAZILIM PROJELERİ</h1>
+							<p class="header__top__left__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis orci finibus odio
+								auctor sollicitudin. Suspendisse bibendum dolor lorem, vitae pretium libero pretium non.
+								In
+								ornare viverra enim, quis tristique mauris porttitor at. Nullam sagittis sapien nisi.
+								Etiam
+								et sollicitudin odio.
+							</p>
+							<button class="btn-primary header__top__left__btn">
+								<a href="#">İNCELE</a>
+							</button>
+						</div>
+
+						<div class="col-md-6 align-self-center w768">
+							<div class="header__top__right mx-5">
+								<img class="header__top__right__img" src="img/header.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<div class="row">
+						<div class="header__top__left col-md-6">
+							<h1 class="header__top__left__title">ETKİLEYİCİ WEB VE YAZILIM PROJELERİ</h1>
+							<p class="header__top__left__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis orci finibus odio
+								auctor sollicitudin. Suspendisse bibendum dolor lorem, vitae pretium libero pretium non.
+								In
+								ornare viverra enim, quis tristique mauris porttitor at. Nullam sagittis sapien nisi.
+								Etiam
+								et sollicitudin odio.
+							</p>
+							<button class="btn-primary header__top__left__btn">
+								<a href="#">İNCELE</a>
+							</button>
+						</div>
+
+						<div class="col-md-6 align-self-center w768">
+							<div class="header__top__right mx-5">
+								<img class="header__top__right__img" src="img/header.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<div class="row">
+						<div class="header__top__left col-md-6">
+							<h1 class="header__top__left__title">ETKİLEYİCİ WEB VE YAZILIM PROJELERİ</h1>
+							<p class="header__top__left__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis orci finibus odio
+								auctor sollicitudin. Suspendisse bibendum dolor lorem, vitae pretium libero pretium non.
+								In
+								ornare viverra enim, quis tristique mauris porttitor at. Nullam sagittis sapien nisi.
+								Etiam
+								et sollicitudin odio.
+							</p>
+							<button class="btn-primary header__top__left__btn">
+								<a href="#">İNCELE</a>
+							</button>
+						</div>
+
+						<div class="col-md-6 align-self-center w768">
+							<div class="header__top__right mx-5">
+								<img class="header__top__right__img" src="img/header.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- sağ-sol ok -->
+			<!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+				data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button> -->
+		</div>
+
+		<div class="header__bottom container">
+			<div class="row">
+				<div class="header__bottom__left col-5 d-flex justify-content-end">
+					<div class="header__bottom__left__content">
+						<div class="header__bottom__left__social">
+							<a href="#"><img class="img-fluid" src="img/f.png" alt=""></a>
+						</div>
+						<div class="header__bottom__left__social">
+							<a href="#"><img class="img-fluid" src="img/ln.png" alt=""></a>
+						</div>
+						<div class="header__bottom__left__social">
+							<a href="#"><img class="img-fluid" src="img/i.png" alt=""></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__bottom__right col-5 d-flex">
+					<div class="align-self-end ">
+						<h2>HEMEN TEKLİF ALIN</h2>
+						<p>
+							İhtiyacınız olan dijital hizmetler için hemen teklif alabilirsiniz. Ekibimiz sizinle en kısa
+							sürede irtibata geçecektir.
+						</p>
+						<button class="btn-light">
+							<a href="#">TEKLİF AL</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main container">
+		<section class="sec-1">
+			<div class="row">
+				<div class="col-md-6 sec-1__image__center">
+					<div class="sec-1__left__img">
+						<img class="img-fluid" src="img/sec1.png" alt="">
+					</div>
+				</div>
+				<div class="col-md-6 d-flex flex-column justify-content-around">
+					<div class="sec-1__left__text">
+						<h2>ETKİLEYİCİ WEB VE YAZILIM PROJELERİ</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis orci finibus odio
+							auctor
+							sollicitudin. Suspendisse bibendum dolor lorem, vitae pretium libero pretium non. In ornare
+							viverra enim, quis tristique mauris porttitor at. Nullam sagittis sapien nisi. Etiam et
+							sollicitudin odio.
+						</p>
+					</div>
+					<button class="btn-light">
+						<a href="#">DETAYLAR</a>
+					</button>
+				</div>
+			</div>
+		</section>
+		<div class="line"></div>
+		<section class="sec-2">
+			<div class="row">
+				<div class="col-md-6 d-flex flex-column justify-content-around">
+					<div class="sec-2__left__text">
+						<h2>ETKİLEYİCİ WEB VE YAZILIM PROJELERİ</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis orci finibus odio
+							auctor
+							sollicitudin. Suspendisse bibendum dolor lorem, vitae pretium libero pretium non. In ornare
+							viverra enim, quis tristique mauris porttitor at. Nullam sagittis sapien nisi. Etiam et
+							sollicitudin odio.
+						</p>
+					</div>
+					<button class="btn-light">
+						<a href="#">DETAYLAR</a>
+					</button>
+				</div>
+				<div class="col-md-6 d-flex justify-content-end sec-2__image__center">
+					<div class="sec-2__left__img">
+						<img class="img-fluid" src="img/sec2.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="line"></div>
+		<section class="sec-3">
+			<h2 class="sec-3__title">PARTNERLERİMİZ</h2>
+			<div class="row gy-5 gx-5">
+				<div class="col-xl-2 col-md-4 col-sm-6 px-3">
+					<a href="#">
+						<img class="img-fluid" src="img/Adobe.png" alt="">
+					</a>
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 px-3">
+					<a href="#">
+						<img class="img-fluid" src="img/Sap.png" alt="">
+					</a>
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 px-3">
+					<a href="#">
+						<img class="img-fluid" src="img/Microsoft.png" alt="">
+					</a>
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 px-3">
+					<a href="#">
+						<img class="img-fluid" src="img/Adobe.png" alt="">
+					</a>
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6 px-3">
+					<a href="#">
+						<img class="img-fluid" src="img/Sap.png" alt="">
+					</a>
+				</div>
+				<div class="col-xl-2 col-md-4 col-sm-6">
+					<a href="#">
+						<img class="img-fluid" src="img/Microsoft.png" alt="">
+					</a>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="pt-5">
+		<div class="footer__content">
+			<div class="row pt-5 mt-5">
+				<div class="footer__col col-sm-4 mt-5">
+					<a href="#"><img class="footer__logo" src="img/footer_logo.png" alt=""></a>
+					<div class="mt-2">
+						Huzur mah. Maslak Ayazağa cad. UNIQ İstanbul No:3B Sarıyer / İstanbul
+					</div>
+					<div>
+						0850 840 0 975
+					</div>
+				</div>
+				<div class="footer__col col-sm-4 mt-5 text-center">
+					<h3>HİZMETLERİMİZ</h3>
+					<ul>
+						<li><a href="#">Web tasarım</a></li>
+						<li><a href="#">Grafik tasarım</a></li>
+						<li><a href="#">Yazılım</a></li>
+						<li><a href="#">SAP ABAP</a></li>
+					</ul>
+				</div>
+				<div class="footer__col col-sm-4 mt-5 text-center">
+					<h3>BLOG</h3>
+					<ul>
+						<li><a href="#">Kurumsal web nasıl olmalı?</a></li>
+						<li><a href="#">Müşteri nasıl etkilenir</a></li>
+						<li><a href="#">Eticaretin püf noktaları</a></li>
+						<li><a href="#">Mobil uygulama faydaları</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="copyright mt-4 text-center">
+				Copyright mercuresoft.com Tüm hakları saklıdır.
+			</div>
+		</div>
+	</footer>
+
+	<script src="bootstrap.min.js"></script>
+</body>
+</html>
